@@ -1,0 +1,36 @@
+.Documento {
+    height: 100%;
+}
+
+.Documento > h2 {
+    margin-top: 4rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.elemento {
+    height: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.elemento > .component {
+    background-color: white;
+    width: 100%;
+}
+.elemento > .component > img {
+    height: 2rem;   
+    margin: 2rem 0rem;
+}
+
+.elemento > .component > h2 {
+    margin: 0.5rem 0rem;
+}
+.elemento > .component > .componentes {
+    margin: 1rem 1rem;
+}
+.elemento > .component > .componentes > p {
+    margin: 0.5rem 1rem;
+}
